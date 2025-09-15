@@ -1,3 +1,3 @@
-Name: Sridhar Ramachandran <br>
-Roll Number: DA25D002 <br>
+**Name: Sridhar Ramachandran** <br>
+**Roll Number: DA25D002** <br>
 The purpose of this work is to analyze the effectiveness of GMM on the [credit card fraud dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud), which is a highly imbalanced dataset as the vast majority of transactions are legitimate. GMM is better than SMOTE since SMOTE can amplify noise in the dataset. It creates clusters based on the assumption that each cluster follows a multivariate Gaussian distribution. This enables it to create elliptical clusters (thus capturing more complex structures) and also makes it better at sampling as compared to other clustering algorithms. The performance (accuracy and computation time) is further imporoved by performing CBU on the majority class. 
